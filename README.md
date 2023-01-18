@@ -16,7 +16,3 @@
 ## Make it your own!
 
 This portfolio was built on top of [Tailwind Next JS Starter Blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) template which comes with built-in blogs functionality and much more!
-
-## Demonstration
-
-<video src="https://user-images.githubusercontent.com/29705703/163712138-4ad03388-0bba-4797-b493-383726e4daaa.mp4" autoplay />
