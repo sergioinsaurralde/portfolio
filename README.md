@@ -1,6 +1,7 @@
 <div align="center">
   <img alt="Logo" src="https://user-images.githubusercontent.com/29705703/128719328-ed17026c-09f8-4f7c-a435-02881dc49b96.png" width="100px" />
 </div>
+![android-chrome-96x96](/static/favicons/android-chrome-96x96.png)
 <h1 align="center">
   sergioinsaurralde.com
 </h1>
