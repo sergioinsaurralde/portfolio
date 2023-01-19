@@ -28,7 +28,7 @@ export enum Stack {
   arangodb,
   redis,
   postgres,
-  mongo,
+  mongodb,
 
   // Tools
   docker,
@@ -40,8 +40,9 @@ export const WorkStack = [
   Stack.go,
   //Stack.typescript,
   Stack.python,
+  Stack.django,
   Stack.react,
-  Stack.aws,
+
   Stack.docker,
   //Stack.gcp,
   Stack.kubernetes,
@@ -50,7 +51,9 @@ export const WorkStack = [
   Stack.kafka,
   Stack.graphql,
   Stack.postgres,
+  Stack.mongodb,
   Stack.redis,
+  Stack.aws,
   //Stack.arangodb,
   //Stack.reactnative,
 ];
@@ -125,7 +128,7 @@ export const StackInfo: Record<Stack, StackInfoMap> = {
     value: 'Redis',
     color: Colors.redis,
   },
-  [Stack.mongo]: {
+  [Stack.mongodb]: {
     value: 'MongoDB',
     color: Colors.mongo,
   },

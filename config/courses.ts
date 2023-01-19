@@ -32,19 +32,19 @@ export const courses: Course[] = [
         content: [
           {
             name: 'Bienvenido al curso',
-            slug: 'bienvenido al curso',
+            slug: 'bienvenido-al-curso',
           },
           {
             name: 'Qué es Go?',
-            slug: 'qué es go',
+            slug: 'qué-es-go',
           },
           {
             name: 'Por qué aprender Go?',
-            slug: 'por qué aprender go',
+            slug: 'por-qué-aprender-go',
           },
           {
             name: 'Instalación y configuración',
-            slug: 'instalación y configuración',
+            slug: 'instalación-y-configuración',
           },
         ],
       },
@@ -54,15 +54,15 @@ export const courses: Course[] = [
           { name: 'Hola Mundo', slug: 'hola mundo' },
           {
             name: 'Variables y tipos de datos',
-            slug: 'variables y tipos de datos',
+            slug: 'variables-y-tipos-de-datos',
           },
-          { name: 'Formato de strings', slug: 'formato de strings' },
-          { name: 'Control del flujo', slug: 'control del flujo' },
+          { name: 'Formato de strings', slug: 'formato-de-strings' },
+          { name: 'Control del flujo', slug: 'control-del-flujo' },
           { name: 'Funciones', slug: 'funciones' },
           { name: 'Módulos', slug: 'módulos' },
           { name: 'Paquetes', slug: 'paquetes' },
-          { name: 'Espacio de trabajo', slug: 'espacio de trabajo' },
-          { name: 'Comandos útiles', slug: 'Comandos útiles' },
+          { name: 'Espacio de trabajo', slug: 'espacio-de-trabajo' },
+          { name: 'Comandos útiles', slug: 'Comandos-útiles' },
           { name: 'Build', slug: 'build' },
         ],
       },
@@ -96,7 +96,7 @@ export const courses: Course[] = [
           { name: 'Sync Package', slug: 'sync-package' },
           {
             name: 'Patrones de concurrencia avanzados',
-            slug: 'patrones de concurrencia avanzados',
+            slug: 'patrones-de-concurrencia-avanzados',
           },
           { name: 'Context', slug: 'context' },
         ],
@@ -104,7 +104,7 @@ export const courses: Course[] = [
       {
         name: 'Complemento',
         content: [
-          { name: 'Próximos pasos', slug: 'próximos pasos' },
+          { name: 'Próximos pasos', slug: 'próximos-pasos' },
           { name: 'Referencias', slug: 'referencias' },
         ],
       },
