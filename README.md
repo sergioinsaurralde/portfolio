@@ -1,8 +1,6 @@
 <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/sergioinsaurralde/portfolio/master/public/static/favicons/favicon.ico" width="100px" />
 </div>
-[android-chrome-96x96](/static/favicons/android-chrome-96x96.png)
-(https://raw.githubusercontent.com/sergioinsaurralde/portfolio/master/public/static/favicons/favicon.ico)
 <h1 align="center">
   sergioinsaurralde.com
 </h1>
