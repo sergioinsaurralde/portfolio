@@ -36,15 +36,15 @@ export const courses: Course[] = [
           },
           {
             name: 'Qué es Go?',
-            slug: 'qué-es-go',
+            slug: 'que-es-go',
           },
           {
             name: 'Por qué aprender Go?',
-            slug: 'por-qué-aprender-go',
+            slug: 'por-que-aprender-go',
           },
           {
             name: 'Instalación y configuración',
-            slug: 'instalación-y-configuración',
+            slug: 'instalacion-y-configuracion',
           },
         ],
       },
@@ -59,7 +59,7 @@ export const courses: Course[] = [
           { name: 'Formato de strings', slug: 'formato-de-strings' },
           { name: 'Control del flujo', slug: 'control-del-flujo' },
           { name: 'Funciones', slug: 'funciones' },
-          { name: 'Módulos', slug: 'módulos' },
+          { name: 'Módulos', slug: 'modulos' },
           { name: 'Paquetes', slug: 'paquetes' },
           { name: 'Espacio de trabajo', slug: 'espacio-de-trabajo' },
           { name: 'Comandos útiles', slug: 'Comandos-útiles' },
@@ -104,7 +104,7 @@ export const courses: Course[] = [
       {
         name: 'Complemento',
         content: [
-          { name: 'Próximos pasos', slug: 'próximos-pasos' },
+          { name: 'Próximos pasos', slug: 'proximos-pasos' },
           { name: 'Referencias', slug: 'referencias' },
         ],
       },

@@ -1,0 +1,97 @@
+---
+title: 'Instalación y configuración'
+date: '2023-01-21'
+draft: false
+summary: 'En este tutorial, instalaremos Go y configuraremos nuestro editor de código'
+images: ['/static/courses/go/getting-started/installation-and-setup/banner.png']
+authors: ['default']
+---
+
+En este tutorial, instalaremos Go y configuraremos nuestro editor de código.
+
+## Descargar
+
+Podemos instalar GO desde la sección de [descargas](https://go.dev/dl).
+
+![download](/static/courses/go/getting-started/installation-and-setup/download.png)
+
+## Instalación
+
+_Estas instrucciones son de la [página oficial](https://go.dev/doc/install)._
+
+### MacOS
+
+1. Abra el archivo que descargó y siga las indicaciones para instalar Go.
+   El paquete instala la distribución Go en `/usr/local/go`.  El paquete debe poner el `/usr/local/go/bin` directorio en su variable de entorno `PATH`.
+   Es posible que deba reiniciar cualquier sesión de Terminal abierta para que el cambio surta efecto.
+
+2. Verifique que haya instalado Go abriendo un símbolo del sistema(cmd) y escribiendo el siguiente comando:
+
+```
+$ go version
+```
+
+3. Confirme que el comando imprima la versión instalada de Go.
+
+### Linux
+
+1. Elimine cualquier instalación anterior de Go eliminando la carpeta `/usr/local/go` (si existe), luego extraiga el archivo que acaba de descargar `/usr/local`, creando un nuevo árbol de Go en `/usr/local/go`:
+
+```
+$ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.1.linux-amd64.tar.gz
+```
+
+_Nota: Es posible que tenga que ejecutar el comando como root o a través de sudo._
+
+**No descomprima** el archivo en un árbol existente `/usr/local/go`. Se sabe que esto produce instalaciones de Go defectuosas.
+
+2. Agregá `/usr/local/go/bin` a la variable de entorno PATH.
+   Puede hacerlo añadiendo la siguiente línea a su `$HOME/.profile` o `/etc/profile` (para una instalación en todo el sistema):
+
+```
+export PATH=$PATH:/usr/local/go/bin
+```
+
+_Nota: Es posible que los cambios realizados en un archivo de perfil no se apliquen hasta la próxima vez que inicie sesión en su ordenador. Para aplicar los cambios inmediatamente, basta con ejecutar los comandos del shell directamente o ejecutarlos desde el perfil utilizando un comando como source `$HOME/.profile`._
+
+3. Compruebe que ha instalado Go abriendo un símbolo del sistema y escribiendo el siguiente comando:
+
+```
+$ go version
+```
+
+4. Confirme que el comando imprima la versión instalada de Go.
+
+### Windows
+
+1. Abre el archivo MSI que has descargado y sigue las instrucciones para instalar Go.
+
+Abre el archivo MSI que has descargado y sigue las instrucciones para instalar Go.
+Por defecto, el instalador instalará Go en Archivos de programa o Archivos de programa (x86). Puede cambiar la ubicación según sea necesario. Después de la instalación, deberá cerrar y volver a abrir cualquier símbolo del sistema abierto para que los cambios en el entorno realizados por el instalador se reflejen en el símbolo del sistema.
+
+2. Compruebe que ha instalado Go.
+   1. En Windows, haga clic en el menú Inicio.
+   2. En el cuadro de búsqueda del menú, escriba cmd y, a continuación, pulse la tecla Intro.
+   3. En la ventana de símbolo del sistema que aparece, escriba el siguiente comando:
+
+```
+$ go version
+```
+
+3. Confirme que el comando imprima la versión instalada de Go.
+
+## VS Code
+
+En este curso, usaré [VS Code](https://code.visualstudio.com) y puede descargarlo desde [aquí](https://code.visualstudio.com/download), que facilita el trabajo con Go en VS Code.
+
+![vscode](/static/courses/go/getting-started/installation-and-setup/vscode.png)
+
+_Siéntase libre de usar cualquier otro editor de código que prefiera._
+
+### Extensión
+
+Asegúrese de instalar también la  [extensión Go](https://code.visualstudio.com/docs/languages/go) which makes it easier to work with Go in VS Code.
+
+![extension](/static/courses/go/getting-started/installation-and-setup/extension.png)
+
+Esto es todo para la instalación y configuración de Go, ¡comencemos el curso y escribamos nuestro primer hola mundo!
