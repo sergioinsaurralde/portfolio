@@ -22,7 +22,7 @@ export default function Pagination({
             className='cursor-auto disabled:opacity-50'
             disabled={!prevPage}
           >
-            Previous
+            Anterior
           </button>
         )}
         {prevPage && (
@@ -33,7 +33,7 @@ export default function Pagination({
                 : `/${type}/page/${currentPage - 1}`
             }
           >
-            <button>Previous</button>
+            <button>Anterior</button>
           </Link>
         )}
         <span>
@@ -44,12 +44,12 @@ export default function Pagination({
             className='cursor-auto disabled:opacity-50'
             disabled={!nextPage}
           >
-            Next
+            Siguiente
           </button>
         )}
         {nextPage && (
           <Link href={`/${type}/page/${currentPage + 1}`}>
-            <button>Next</button>
+            <button>Siguiente</button>
           </Link>
         )}
       </nav>

@@ -21,7 +21,7 @@ function Banner(props: BannerProps): React.ReactElement {
         {frontMatter.occupation}
       </p>
       <p className='font-light lg:text-xl'>
-        Lee mas
+        Lee más
         <Link className='ml-2 mr-2 font-normal text-black' href='/about'>
           <RoughNotation
             show

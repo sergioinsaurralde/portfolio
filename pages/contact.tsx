@@ -11,7 +11,7 @@ function Contact(): React.ReactElement {
 
   function onScheduleMeeting(): void {
     if (!contact.calendly) {
-      console.error('err: calendly link was not provided.');
+      console.error('err: no se proporcionó el enlace de calendly.');
       return;
     }
 
@@ -32,7 +32,7 @@ function Contact(): React.ReactElement {
         <Header title='Contacto' />
         <div className='container py-12'>
           <p>
-            ¿Tienes un proyecto en mente? ¿Quieres contratarme? o simplemente quieres chatear? 
+            ¿Tienes un proyecto en mente? ¿Quieres contratarme? o simplemente quieres hablar? 
             No dudes en
             
             <span

@@ -143,10 +143,10 @@ export default function PostLayout({
               </div>
               <div className='pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300'>
                 <Link href={discussUrl(slug)} rel='nofollow'>
-                  {'Discuss on Twitter'}
+                  {'Comentar en Twitter'}
                 </Link>
                 {` • `}
-                <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
+                <Link href={editUrl(fileName)}>{'Ver en GitHub'}</Link>
               </div>
               <Comments frontMatter={frontMatter} />
             </div>
@@ -170,7 +170,7 @@ export default function PostLayout({
                       {prev && (
                         <div>
                           <h2 className='text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400'>
-                            Previous Article
+                            Artículo anterior
                           </h2>
                           <div className='text-primary-500 hover:text-primary-600 dark:hover:text-primary-400'>
                             <Link href={`/blog/${prev.slug}`}>
@@ -182,7 +182,7 @@ export default function PostLayout({
                       {next && (
                         <div>
                           <h2 className='text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400'>
-                            Next Article
+                            Siguiente artículo
                           </h2>
                           <div className='text-primary-500 hover:text-primary-600 dark:hover:text-primary-400'>
                             <Link href={`/blog/${next.slug}`}>
@@ -199,7 +199,7 @@ export default function PostLayout({
                     href='/blog'
                     className='text-primary-500 hover:text-primary-600 dark:hover:text-primary-400'
                   >
-                    &larr; Back to the blog
+                    &larr; Volver al blog
                   </Link>
                 </div>
               </div>

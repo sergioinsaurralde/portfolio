@@ -14,7 +14,7 @@ export default function Courses(): React.ReactElement {
       <div className='fade-in divide-y-2 divide-gray-100 dark:divide-gray-800'>
         <Header
           title='Cursos'
-          subtitle="Cursos gratuitos y de código abierto, espero que proporcionen una experiencia de aprendizaje positiva"
+          subtitle="Cursos gratuitos y de código abierto, espero que te proporcionen una experiencia de aprendizaje positiva"
         />
         <div className='container py-12'>
           <div className='-m-4 flex flex-wrap'>
