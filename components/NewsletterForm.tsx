@@ -25,7 +25,7 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
     if (error) {
       setError(true);
       setMessage(
-        'Your e-mail address is invalid or you are already subscribed!',
+        'Su dirección de correo electrónico no es válida o ya está suscripto!',
       );
       return;
     }
@@ -33,7 +33,7 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
     inputEl.current.value = '';
     setError(false);
     setSubscribed(true);
-    setMessage('Successfully! 🎉 You are now subscribed.');
+    setMessage('Felicidades! 🎉 Ya estás suscripto.');
   };
 
   return (
@@ -44,7 +44,7 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
       <form className='flex flex-col sm:flex-row' onSubmit={subscribe}>
         <div>
           <label className='sr-only' htmlFor='email-input'>
-            Email address
+            Dirección de correo electrónico
           </label>
           <input
             autoComplete='email'
@@ -52,7 +52,7 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
             id='email-input'
             name='email'
             placeholder={
-              subscribed ? "You're subscribed !  🎉" : 'Enter your email'
+              subscribed ? "Estás suscripto !  🎉" : 'Introduzca su dirección de correo electrónico'
             }
             ref={inputEl}
             required
@@ -70,7 +70,7 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
             type='submit'
             disabled={subscribed}
           >
-            {subscribed ? 'Thank you!' : 'Sign up'}
+            {subscribed ? 'Gracias!' : 'Regístrate'}
           </button>
         </div>
       </form>

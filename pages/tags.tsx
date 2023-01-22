@@ -22,7 +22,7 @@ export default function Tags({
     <>
       <PageSEO
         title={`Tags - ${siteMetadata.author}`}
-        description='Things I blog about'
+        description='Cosas que escribo en mi blog'
       />
       <div className='fade-in flex flex-col items-start justify-start divide-y-2 divide-gray-100 dark:divide-gray-800 md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6 md:divide-y-0'>
         <div className='space-x-2 pt-6 pb-8 md:space-y-5'>

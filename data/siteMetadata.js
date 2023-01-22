@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Sergio Insaurralde',
   headerTitle: 'Sergio Insaurralde',
   description:
-    'A software developer who values learning and growing with people, teams, and technologies.',
+    'Un desarrollador de software que valora aprender y crecer con las personas, los equipos y las tecnologías.',
   language: 'es-ar',
   theme: 'system', // system, dark or light
   siteUrl: 'https://sergioinsaurralde.com',
