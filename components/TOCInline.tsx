@@ -60,7 +60,7 @@ const TOCInline = ({
   );
 
   const title: any = (
-    <span className='font-bold dark:text-white'>Table of Contents</span>
+    <span className='font-bold dark:text-white'>Tabla de Contenidos</span>
   );
 
   const renderTOC = toc.length >= 1;
